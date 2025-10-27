@@ -10,9 +10,13 @@ from http.client import HTTPConnection
 from cryptography.hazmat.primitives import serialization
 from cryptography.hazmat.primitives.asymmetric import rsa
 
+# AI Acknowledgment:
+# I used ChatGPT for guidance and clarification on how to design and structure
+# the JWKS server, including database setup and endpoint logic.
+# The final implementation and code were written and debugged by me.
+
 # Import your project2 module and refer to it as 'server' for convenience
 import project2 as server
-
 
 class TestDatabaseFunctions(unittest.TestCase):
     """Test database initialization and operations"""
