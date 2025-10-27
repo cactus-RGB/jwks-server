@@ -9,6 +9,11 @@ import datetime
 import sqlite3
 import time
 
+# AI Acknowledgment:
+# I used ChatGPT for guidance and clarification on how to design and structure
+# the JWKS server, including database setup and endpoint logic.
+# The final implementation and code were written and debugged by me.
+
 # Server configuration
 hostName = "localhost"
 serverPort = 8080
